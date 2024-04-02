@@ -1,3 +1,5 @@
+[![PyPI version](https://badge.fury.io/py/poetree.svg)](https://badge.fury.io/py/poetree)
+
 # poetree
 Poetree library provides an easy way to get data from PoeTree API.
 
