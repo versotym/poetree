@@ -1,2 +1,2 @@
 
-BASE_URL = 'http://versologie.cz/poetree/api'
+BASE_URL = 'https://poetree.org/api'
