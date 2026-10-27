@@ -57,7 +57,7 @@ Wheatley, Phillis (1753)
 
 Analogous methods in other classes are as follow:
 
-<img src="https://poetree.org/img/classes.png" style="width:300px;"/>
+<img src="poetree-class-diagram.svg" style="width:500px;"/>
 
 Objects created by ```get_[something]()``` are also stored in their parent object's property ```data_[something]``` for later use:
 
