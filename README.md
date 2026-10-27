@@ -3,7 +3,7 @@
 # poetree
 Poetree library provides an easy way to get data from PoeTree API.
 
-[PoeTree](https://versologie.cz/poetree) is a standardized collection of poetry corpora comprising over 330,000 poems in ten languages (Czech, English, French, German, Hungarian, Italian, Portuguese, Russian, Slovenian and Spanish). Each corpus has been deduplicated, enriched with Universal Dependencies, provided with additional metadata and converted into a unified JSON structure.
+[PoeTree](https://poetree.org) is a standardized collection of poetry corpora comprising over 330,000 poems in 11 languages (Czech, English, French, German, Hungarian, Italian, Norwegian, Portuguese, Russian, Slovenian and Spanish). Each corpus has been deduplicated, enriched with Universal Dependencies, provided with additional metadata and converted into a unified JSON structure.
 
 ## Install
 ```console
@@ -20,11 +20,11 @@ import poetree
 ```
 
 There are five classes available:
-- ```Poetree``` represents the entire PoeTree collection [\[documentation\]](https://versologie.cz/poetree/python-doc/poetree)
-- ```Corpus``` represents single corpus [\[documentation\]](https://versologie.cz/poetree/python-doc/corpus)
-- ```Author``` represents single author [\[documentation\]](https://versologie.cz/poetree/python-doc/author)
-- ```Source``` represents single book [\[documentation\]](https://versologie.cz/poetree/python-doc/source)
-- ```Poem``` represents single poem [\[documentation\]](https://versologie.cz/poetree/python-doc/poem)
+- ```Poetree``` represents the entire PoeTree collection [\[documentation\]](https://poetree.org/python-doc/poetree)
+- ```Corpus``` represents single corpus [\[documentation\]](https://poetree.org/python-doc/corpus)
+- ```Author``` represents single author [\[documentation\]](https://poetree.org/python-doc/author)
+- ```Source``` represents single book [\[documentation\]](https://poetree.org/python-doc/source)
+- ```Poem``` represents single poem [\[documentation\]](https://poetree.org/python-doc/poem)
 
 Each class has properties corresponding to the keys returned by API. To get for instance the number of authors and the number of poems in PoeTree.cs:
 
@@ -57,7 +57,7 @@ Wheatley, Phillis (1753)
 
 Analogous methods in other classes are as follow:
 
-<img src="https://versologie.cz/poetree/img/classes.png" style="width:300px;"/>
+<img src="https://poetree.org/img/classes.png" style="width:300px;"/>
 
 Objects created by ```get_[something]()``` are also stored in their parent object's property ```data_[something]``` for later use:
 
